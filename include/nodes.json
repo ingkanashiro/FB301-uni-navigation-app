@@ -1,0 +1,96 @@
+{
+    "nodes": [
+
+        {
+            "id": "S-INT-010",
+            "pos": [],
+            "adjacents": ["S-TOD-L", "S-VER-F", "S-LOS-F"],
+            "data": {
+                "building": "",
+                "type": "",
+                "name": ""
+            }
+        },
+        {
+            "id": "S-TOD-L",
+            "pos": [],
+            "adjacents": ["S-INT-010", "S-INT-012"],
+            "data": {
+                "building": "",
+                "type": "",
+                "name": "Todo Light"
+            }
+        },
+        {
+            "id": "S-VER-F",
+            "pos": [],
+            "adjacents": ["S-INT-010", "S-INT-011", "S-INT-018"],
+            "data": {
+                "building": "",
+                "type": "",
+                "name": ""
+            }
+        },
+        {
+            "id": "S-INT-011",
+            "pos": [],
+            "adjacents": ["S-INT-012", "S-INT-013", "S-MAT-2", "S-SAL-2"],
+            "data": {
+                "building": "",
+                "type": "",
+                "name": ""
+            }
+        },
+        {
+            "id": "S-INT-012",
+            "pos": [],
+            "adjacents": ["S-TOD-L", "S-SAL-2", "S-TIE-N"],
+            "data": {
+                "building": "",
+                "type": "",
+                "name": ""
+            }
+        },
+        {
+            "id": "S-SAL-2",
+            "pos": [],
+            "adjacents": ["S-INT-012", "S-INT-011"],
+            "data": {
+                "building": "",
+                "type": "",
+                "name": ""
+            }
+        },
+        {
+            "id": "S-MAT-2",
+            "pos": [],
+            "adjacents": ["S-INT-011", "S-INT-108", "S-INT-101"],
+            "data": {
+                "building": "",
+                "type": "",
+                "name": ""
+            }
+        },
+        {
+            "id": "S-INT-013",
+            "pos": [],
+            "adjacents": ["S-INT-011", "S-INT-014", "S-OER-A"],
+            "data": {
+                "building": "",
+                "type": "",
+                "name": ""
+            }
+        },
+        {
+            "id": "S-OER-A",
+            "pos": [],
+            "adjacents": [],
+            "data": {
+                "building": "",
+                "type": "",
+                "name": ""
+            }
+        }
+        
+    ]
+}

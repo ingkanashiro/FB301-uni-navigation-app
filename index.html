@@ -5,9 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NavUNI</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAU7vW-ZXuIQVLtebIGISxjP4uHdunGYLg&callback=initMap" async defer></script>
+    <script src="lib/leaflet/leaflet.js" defer></script>
     <script src="index.js" defer></script>
+    
+
+
 </head>
 <body>
-    ola
+    <div id="sidebar">
+        <h2>Uni Nav</h2>
+        <p>Find the shortest path across campus.</p>
+        
+        <div class="input-group">
+            <label for="start">Start Location:</label>
+            <select id="start">
+                <option value="Secret_Snack_Shop">Secret Snack Shop</option>
+                <option value="Engineering_Lab_3">Engineering Lab 3</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label for="end">Destination:</label>
+            <select id="end">
+                <option value="Engineering_Lab_3">Engineering Lab 3</option>
+                <option value="Secret_Snack_Shop">Secret Snack Shop</option>
+            </select>
+        </div>
+
+        <button onclick="handleRouteTrigger()">Find Route</button>
+    </div>
+
+    <div id="map"></div>
 </body>
 </html>

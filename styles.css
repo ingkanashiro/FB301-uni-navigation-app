@@ -1,9 +1,84 @@
 :root {
     --color-base: hsl(240deg, 21%, 15%);
+    --color-mantle: hsl(240deg, 21%, 12%);
+    --color-crust: hsl(240deg, 23%, 9%);
+    /* --color-accent: hsl(343deg, 81%, 75%); */
+    --color-accent: hsl(267deg, 84%, 81%);
+    --color-accent-h: hsl(267deg, 95%, 89%);
+    
     --color-text: hsl(226deg, 64%, 88%);
 }
 
 body {
     background-color: var(--color-base);
     color: var(--color-text);
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    position: relative;
+}
+
+.google-dark-tiles {
+    filter: brightness(0.64) invert(1) contrast(4) hue-rotate(212deg) saturate(0.8) brightness(0.5);
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#sidebar {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 350px;
+    
+    background: var(--color-mantle);
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    border-radius: 32px;
+    
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); 
+    border: 1px solid hsl(240deg, 23%, 9%);
+    
+    z-index: 1000;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--color-text);
+}
+
+select, button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background: var(--color-accent);
+    color: var(--color-crust);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background: var(--color-accent-h);
 }
