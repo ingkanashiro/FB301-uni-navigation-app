@@ -1,96 +1,433 @@
 {
-    "nodes": [
+    "points": [
+        {
+            "id": "puerta_6",
+            "name": "Puerta 6",
+            "aliases": [],
+            "type": "Puerta",
+            "coordinates": {
+                "lat": -12.015168531283804, 
+                "lng": -77.05177813179046
+            }
+        },
+        {
+            "id": "alameda_fiis",
+            "name": "Facultad de Ingeniería Industrial y de Sistemas",
+            "aliases": [
+                "FIIS",
+                "Sistemas"
+            ],
+            "type": "Facultad",
+            "coordinates": {
+                "lat": -12.015719773273714, 
+                "lng": -77.05029332623951
+            }
+        },
+        {
+            "id": "fiis_s4",
+            "name": "Salones S4",
+            "aliases": [
+                "Sector S4"
+            ],
+            "type": "Salones",
+            "coordinates": {
+                "lat": -12.015528915917503,
+                "lng": -77.05029185814242
+            }
+        },
+        {
+            "id": "todo_light",
+            "name": "Restaurante Todo Light",
+            "aliases": [],
+            "type": "Restaurante",
+            "coordinates": {
+                "lat": -12.015123535539042, 
+                "lng": -77.05117528870205
+            }
+        },
+        {
+            "id": "veri_fiis",
+            "name": "Veri FIIS",
+            "aliases": [],
+            "type": "Restaurante",
+            "coordinates": {
+                "lat": -12.015068755971976, 
+                "lng": -77.05064935758531
+            }
+        },
+        {
+            "id": "meche",
+            "name": "Meche",
+            "aliases": [],
+            "type": "Restaurante",
+            "coordinates": {
+                "lat": -12.014943011129684, 
+                "lng": -77.05014639003414
+            }
+        },
+        {
+            "id": "tiendas_fiis",
+            "name": "Tiendas FIIS",
+            "aliases": [],
+            "type": "Tienda",
+            "coordinates": {
+                "lat": -12.014948526258053, 
+                "lng": -77.05043508889896
+            }
+        },
+        {
+            "id": "biblioteca_fiis",
+            "name": "Biblioteca FIIS",
+            "aliases": [],
+            "type": "Biblioteca",
+            "coordinates": {
+                "lat": -12.015899531692686, 
+                "lng": -77.05050888046368
+            }
+        },
+        {
+            "id": "ceiis",
+            "name": "Centro de Estudiantes FIIS - CEIIS",
+            "aliases": [
+                "CEIIS"
+            ],
+            "type": "Centro cultural",
+            "coordinates": {
+                "lat": -12.015527436064302, 
+                "lng": -77.05023752312415
+            }
+        },
+        {
+            "id": "nucleo_fiis",
+            "name": "Centro Cultural Núcleo FIIS",
+            "aliases": [
+                "CC Núcleo"
+            ],
+            "type": "Centro cultural",
+            "coordinates": {
+                "lat": -12.015381036566197, 
+                "lng": -77.05015047563006
+            }
+        },
+        {
+            "id": "ccat_fiis",
+            "name": "Centro Cultural Avanzada Tecnológica",
+            "aliases": [
+                "CCAT"
+            ],
+            "type": "Centro cultural",
+            "coordinates": {
+                "lat": -12.015352834515244,
+                "lng": -77.05028257441894
+            }
+        },
+        {
+            "id": "auditorio_fiis",
+            "name": "Auditorio FIIS",
+            "aliases": [],
+            "type": "Auditorio",
+            "coordinates": {
+                "lat": -12.016049408869138, 
+                "lng": -77.0503988004166
+            }
+        },
+        {
+            "id": "fiis_s2",
+            "name": "Ex Auditorio FIIS",
+            "aliases": [
+                "Matadero FIIS"
+            ],
+            "type": "Salones",
+            "coordinates": {
+                "lat": -12.01522538542556, 
+                "lng": -77.05055350055417
+            }
+        },
+        {
+            "id": "tefiis",
+            "name": "Tercio Estudiantil FIIS",
+            "aliases": [
+                "TEFIIS"
+            ],
+            "type": "Institución",
+            "coordinates": {
+                "lat": -12.015159203976422, 
+                "lng": -77.05081175070673
+            }
+        },
+        {
+            "id": "decanato_fiis",
+            "name": "Decanato FIIS",
+            "aliases": [],
+            "type": "Mesa de partes",
+            "coordinates": {
+                "lat": -12.01576568263945, 
+                "lng": -77.04985002920027
+            }
+        },
+        {
+            "id": "fiis_o",
+            "name": "Laboratorio O - FIIS",
+            "aliases": [
+                "Sector O",
+                "Lab-O",
+                "LAB-QUIM"
+            ],
+            "type": "Laboratorio",
+            "coordinates": {
+                "lat": -12.015287666366413, 
+                "lng": -77.04912296430122
+            }
+        },
+        {
+            "id": "rotonda_fiis",
+            "name": "Rotonda Cultural FIIS",
+            "aliases": [
 
-        {
-            "id": "S-INT-010",
-            "pos": [],
-            "adjacents": ["S-TOD-L", "S-VER-F", "S-LOS-F"],
-            "data": {
-                "building": "",
-                "type": "",
-                "name": ""
+            ],
+            "type": "Parque",
+            "coordinates": {
+                "lat": -12.015250938100696, 
+                "lng": -77.04930669561165
             }
         },
         {
-            "id": "S-TOD-L",
-            "pos": [],
-            "adjacents": ["S-INT-010", "S-INT-012"],
-            "data": {
-                "building": "",
-                "type": "",
-                "name": "Todo Light"
+            "id": "sistemas_uni",
+            "name": "Sistemas UNI",
+            "aliases": [],
+            "type": "Institución",
+            "coordinates": {
+                "lat": -12.015845445488207, 
+                "lng": -77.04943361840651
             }
         },
         {
-            "id": "S-VER-F",
-            "pos": [],
-            "adjacents": ["S-INT-010", "S-INT-011", "S-INT-018"],
-            "data": {
-                "building": "",
-                "type": "",
-                "name": ""
+            "id": "fiis_s1",
+            "name": "Salones S1",
+            "aliases": [
+                "Laboratorio S1", "S1"
+            ],
+            "type": "Laboratorio",
+            "coordinates": {
+                "lat": -12.015615750831056, 
+                "lng": -77.04943680229701
             }
         },
         {
-            "id": "S-INT-011",
-            "pos": [],
-            "adjacents": ["S-INT-012", "S-INT-013", "S-MAT-2", "S-SAL-2"],
-            "data": {
-                "building": "",
-                "type": "",
-                "name": ""
+            "id": "oera_fiis",
+            "name": "Oficina de Estadística y Registros Académicos - FIIS",
+            "aliases": [
+                "OERA FIIS"
+            ],
+            "type": "Institución",
+            "coordinates": {
+                "lat": -12.015523605103057, 
+                "lng": -77.05064598559517
             }
         },
         {
-            "id": "S-INT-012",
-            "pos": [],
-            "adjacents": ["S-TOD-L", "S-SAL-2", "S-TIE-N"],
-            "data": {
-                "building": "",
-                "type": "",
-                "name": ""
+            "id": "losas_fiis", 
+            "name": "Losas FIIS",
+            "aliases": [
+                "Canchas FIIS"
+            ],
+            "type": "Espacio deportivo",
+            "coordinates": {
+                "lat": -12.015328915800826, 
+                "lng": -77.05104845958301
             }
         },
         {
-            "id": "S-SAL-2",
-            "pos": [],
-            "adjacents": ["S-INT-012", "S-INT-011"],
-            "data": {
-                "building": "",
-                "type": "",
-                "name": ""
+            "id": "estadio_fiis",
+            "name": "Estadio FIIS",
+            "aliases": [
+                "Cancha FIIS", "Canchas FIIS"
+            ],
+            "type": "Espacio deportivo",
+            "coordinates": {
+                "lat": -12.01590585002869, 
+                "lng": -77.05131691430837
             }
         },
         {
-            "id": "S-MAT-2",
-            "pos": [],
-            "adjacents": ["S-INT-011", "S-INT-108", "S-INT-101"],
-            "data": {
-                "building": "",
-                "type": "",
-                "name": ""
+            "id": "lab_elctronic_FIEE",
+            "name": "Laboratorio de Electronica FIEE",
+            "aliases": [
+                "Lab Electro FIEE"
+            ],
+            "type": "Laboratorio",
+            "coordinates": {
+                "lat": -12.0170131,
+                "lng": -77.0490594
             }
         },
         {
-            "id": "S-INT-013",
-            "pos": [],
-            "adjacents": ["S-INT-011", "S-INT-014", "S-OER-A"],
-            "data": {
-                "building": "",
-                "type": "",
-                "name": ""
+            "id": "lab_telec_FIEE",
+            "name": "Laboratorio de Telecomunicaciones FIEE",
+            "aliases": [
+                "Lab Telec FIEE"
+            ],
+            "type": "Laboratorio",
+            "coordinates": {
+                "lat": -12.0166609,
+                "lng": -77.0491285
             }
         },
         {
-            "id": "S-OER-A",
-            "pos": [],
-            "adjacents": [],
-            "data": {
-                "building": "",
-                "type": "",
-                "name": ""
+            "id": "oera_FIEE",
+            "name": "Oficina de Estadistica FIEE",
+            "aliases": [
+                "OERA FIEE"
+            ],
+            "type": "Institución",
+            "coordinates": {
+                "lat": -12.0173312,
+                "lng": -77.0491214
+            }
+        },
+        {
+            "id": "biblio_FC",
+            "name": "Biblioteca de la FC",
+            "aliases": [
+                "Biblio FC"
+            ],
+            "type": "Biblioteca",
+            "coordinates": {
+                "lat": -12.0174585,
+                "lng": -77.0497135
+            }
+        },
+        {
+            "id": "centroInv_FC",
+            "name": "Centro de Investigacion FC",
+            "aliases": [
+                "Centro Inv FC"
+            ],
+            "type": "Centro",
+            "coordinates": {
+                "lat": -12.0170131,
+                "lng": -77.0490594
+            }
+        },
+        {
+            "id": "alameda_FIEE",
+            "name": "Alameda FIEE",
+            "aliases": [
+                "Alameda FIEE"
+            ],
+            "type": "Alameda",
+            "coordinates": {
+                "lat": -12.0165967,
+                "lng": -77.0489387
+            }
+        },
+        {
+            "id": "cancha_FIEE",
+            "name": "Cancha FIEE",
+            "aliases": [
+                "Cancha FIEE"
+            ],
+            "type": "Espacio deportivo",
+            "coordinates": {
+                "lat": -12.0160977,
+                "lng": -77.0489672
+            }
+        },
+        {
+            "id": "tienda_FIEE",
+            "name": "Tienda FIEE",
+            "aliases": [
+                "Tienda FIEE"
+            ],
+            "type": "Tienda",
+            "coordinates": {
+                "lat": -12.0160977,
+                "lng": -77.0489672
+            }
+        },
+        {
+            "id": "impresion_FC",
+            "name": "Impresiones FC",
+            "aliases": [
+                "Impresion FC"
+            ],
+            "type": "Tienda",
+            "coordinates": {
+                "lat": -12.0170735,
+                "lng": -77.0504729
+            }
+        },
+        {
+            "id": "tienda_FIIS",
+            "name": "Tienda FIIS/FC",
+            "aliases": [
+                "Tienda entre FIIS y FC"
+            ],
+            "type": "Tienda",
+            "coordinates": {
+                "lat": -12.0167416,
+                "lng": -77.0504890
+            }
+        },
+        {
+            "id": "ctic",
+            "name": "Centro de Tecnologías de Información y Comunicaciones",
+            "aliases": [
+                "CTIC"
+            ],
+            "type": "Centro",
+            "coordinates": {
+                "lat": -12.0168711,
+                "lng": -77.0495583
+            }
+        },
+        {
+            "id": "cafe_FC",
+            "name": "Restaurante FC",
+            "aliases": [
+                "Restaurante FC"
+            ],
+            "type": "Restaurante",
+            "coordinates": {
+                "lat": -12.0172110,
+                "lng": -77.0505584
+            }
+        },
+        {
+            "id": "tiendaA_FIA",
+            "name": "Tienda A FIA",
+            "aliases": [
+                "Tienda entrada FIA"
+            ],
+            "type": "Tienda",
+            "coordinates": {
+                "lat": -12.0228878,
+                "lng": -77.0485515
+            }
+        },
+        {
+            "id": "tiendaB_FIA",
+            "name": "Tienda B FIA",
+            "aliases": [
+                "Tienda afuera FIA"
+            ],
+            "type": "Tienda",
+            "coordinates": {
+                "lat": -12.0232225,
+                "lng": -77.0485658
+            }
+        },
+        {
+            "id": "tienda_FIP",
+            "name": "Tienda FIP",
+            "aliases": [
+                "Tienda FIP"
+            ],
+            "type": "Tienda",
+            "coordinates": {
+                "lat": -12.0228660,
+                "lng": -77.0481445
             }
         }
-        
     ]
 }

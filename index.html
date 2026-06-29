@@ -19,22 +19,20 @@
         <p>Find the shortest path across campus.</p>
         
         <div class="input-group">
-            <label for="start">Start Location:</label>
-            <select id="start">
-                <option value="Secret_Snack_Shop">Secret Snack Shop</option>
-                <option value="Engineering_Lab_3">Engineering Lab 3</option>
-            </select>
+            <label for="origin-search">Origen:</label>
+            <input type="text" id="origin-search" placeholder="Desde..." autocomplete="off">
+            <div id="origin-suggestions" class="suggestions-box"></div>
+            <input type="hidden" id="origin-latlng">
         </div>
 
         <div class="input-group">
-            <label for="end">Destination:</label>
-            <select id="end">
-                <option value="Engineering_Lab_3">Engineering Lab 3</option>
-                <option value="Secret_Snack_Shop">Secret Snack Shop</option>
-            </select>
+            <label for="destination-search">Destino:</label>
+            <input type="text" id="destination-search" placeholder="Hacia..." autocomplete="off">
+            <div id="destination-suggestions" class="suggestions-box"></div>
+            <input type="hidden" id="dest-latlng">
         </div>
 
-        <button onclick="handleRouteTrigger()">Find Route</button>
+        <button id="route-btn" onclick="startRoute()">Route</button>
     </div>
 
     <div id="map"></div>

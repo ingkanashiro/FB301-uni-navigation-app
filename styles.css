@@ -20,9 +20,6 @@ body {
     position: relative;
 }
 
-.google-dark-tiles {
-    filter: brightness(0.64) invert(1) contrast(4) hue-rotate(212deg) saturate(0.8) brightness(0.5);
-}
 
 #map {
     width: 100%;
@@ -52,6 +49,32 @@ body {
 
 .input-group {
     margin-bottom: 15px;
+}
+
+.suggestions-box {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #24273a; /* Catppuccin Surface 1 */
+    border-radius: 8px;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 2000; /* Forces it to float above everything inside the sidebar panel */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #cdd6f4; /* Mocha Text */
+    border-bottom: 1px solid #363a4f; /* Surface 0 divider */
+}
+
+.suggestion-item:hover {
+    background: #494d64; /* Surface 2 highlights on hover tracking */
+    color: #89b4fa;      /* Turns your text turquoise/blue on hover */
 }
 
 label {
